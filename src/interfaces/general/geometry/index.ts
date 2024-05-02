@@ -443,6 +443,19 @@ export interface Sizes {
 
 export interface SpacingSizes {
 	/**
+	 * @desc Стандартный токен размера 3xs для отступов
+	 * @tags size
+	 * @deprecated
+	 */
+	spacingSize3Xs: number;
+
+	/**
+	 * @desc Стандартный токен размера 2xs для отступов
+	 * @tags size
+	 */
+	spacingSize2Xs: number;
+
+	/**
 	 * @desc Стандартный токен размера xs для отступов
 	 * @tags size
 	 */
@@ -471,4 +484,22 @@ export interface SpacingSizes {
 	 * @tags size
 	 */
 	spacingSizeXl: number;
+
+	/**
+	 * @desc Стандартный токен размера 2xl для отступов
+	 * @tags size
+	 */
+	spacingSize2Xl: number;
+
+	/**
+	 * @desc Стандартный токен размера 3xl для отступов
+	 * @tags size
+	 */
+	spacingSize3Xl: number;
+
+	/**
+	 * @desc Стандартный токен размера 4xl для отступов
+	 * @tags size
+	 */
+	spacingSize4Xl: number;
 }
